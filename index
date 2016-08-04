@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cars</title>
+<link href="css/boostrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=[">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="jumbotron">
+	<h1>WELCOME TO MY SITE</h1>
+	<p>Have a good day</p>
+</div>
+<div class="container-fluid">
+	<div class="row" id="header">
+		<div class="col-sm-3">
+			<h2>Home</h2>
+		</div>
+		<div class="col-sm-3">
+			<h2>Page 1</h2>
+		</div>
+		<div class="col-sm-3">
+			<h2>Page 2</h2>
+		</div>
+		<div class="col-sm-3">
+			<div class="dropdown">
+		</div>
+	</div>
+	<div class="row" id="content">
+		<div class="col-sm-4" id="sidebar">
+			<p>Sidebar</p>
+		</div>
+		<div class="col-sm-6" id="content">
+			<div class="page-header">
+				<h2>About Pokemon</h2>
+			</div>
+			<p>The wold of <small>Pokemon is pokemon</small></p>
+			<p>I like sitting on the toilet</p>
+			<img src="images/sdrf.jpg" alt="stuff" class="img-rounded"><br>
+			<button type="button" class="btn btn-danger">DO NOT PRESS</button>
+		</div>
+		<div class="col-sm-2" id="ads">
+			<p>Ads</p>
+			</div>
+		</div>
+		<div class="row" id="footer">
+			<div class="col-sm-12">
+				<p>Copyright Your Mom 2016</p>
+			</div>  
+		</div>
+	</div>
+</body>
+</html>
