@@ -1,0 +1,101 @@
+/*PORTFOLIO*/
+/*/////////*/
+
+.container{
+	text-align: center;
+	margin-top: 65px;
+	margin-left: 15px;
+	position: absolute;
+	z-index: 0;
+}
+
+.portfolio{
+	border: 2px solid #111;
+	border-radius: 100px;
+	background: none;
+	padding: 10px 20px
+	font-size: 40px;
+	font-family: "raleway";
+	font-weight: 1000;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.portfolio{
+	color: #111;
+}
+
+.portfolio:hover{
+	color: #efefef;
+}
+
+.portfolio::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #111;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.portfolio::before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.portfolio:hover::before{
+	height: 180%;
+}
+
+/*/////////*/
+/*CONTACT*/
+/*/////////*/
+
+.submit{
+	width: 100%;
+	border: 1px solid #111;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "raleway";
+	cursor: pointer;
+	margin: 0px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+.submit{
+	color: #fff;
+	z-index: 0;
+}
+.submit:hover{
+	color: #111;
+	z-index: 0;
+}
+.submit::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #111;
+	transition: 0.8s;
+	z-index: -1;
+}
+.submit::before{
+	bottom: 0;
+	border-radius: 50% 50% 0 0;
+}
+.submit::before{
+	height: 180%;
+}
+.submit:hover::before{
+	height: 0%;
+}
