@@ -9,7 +9,7 @@
 	z-index: 0;
 }
 
-.portfolio{
+input[type=submit]{
 	border: 2px solid #111;
 	border-radius: 100px;
 	background: none;
@@ -17,6 +17,7 @@
 	font-size: 40px;
 	font-family: "raleway";
 	font-weight: 1000;
+	text-decoration: none;
 	cursor: pointer;
 	margin: 10px;
 	transition: 0.8s;
@@ -25,32 +26,13 @@
 	z-index: 0;
 }
 
-.portfolio{
+input[type=submit]{
 	color: #111;
 }
 
-.portfolio:hover{
-	color: #efefef;
-}
-
-.portfolio::before{
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 0%;
-	background: #111;
-	z-index: -1;
-	transition: 0.8s;
-}
-
-.portfolio::before{
-	top: 0;
-	border-radius: 0 0 50% 50%;
-}
-
-.portfolio:hover::before{
-	height: 180%;
+input[type=submit]:hover{
+	color: #00BFFF;
+	border-color: #00BFFF;
 }
 
 /*/////////*/
